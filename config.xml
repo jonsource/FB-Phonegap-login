@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="cz.mfcc.kam-na-budvar" version="1.0.0-alfa.287">
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="cz.mfcc.fb-login" version="alfa">
 
-    <name>Kam na Budvar</name>
+    <name>FB Login</name>
 
-    <description>Kam na Budvar</description>
+    <description>FB Login</description>
 
     <author email="jan.sourek@mfcc.cz" href="http://www.mfcc.cz">Jonsource</author>
 
@@ -102,12 +102,12 @@
         <access origin="*" /> - a wildcard access tag allows access to all external resource.
 
         Otherwise, you can specify specific domains:
-    -->
-    <access origin="http://127.0.0.1*"/> <!-- allow local pages -->
+    
+    <access origin="http://127.0.0.1*"/>
     <access origin="http://maps.google.com" subdomains="true"/>
 	<access origin="http://googleapis.com" subdomains="true"/>
 	<access origin="http://gstatic.com" subdomains="true"/>
-	<access origin="http://budvar.cz" subdomains="true" />
+	<access origin="http://budvar.cz" subdomains="true" /> -->
 	<access origin="*" />
     <!--
         <access origin="http://phonegap.com" />                    - allow any secure requests to http://phonegap.com/
